@@ -1,0 +1,26 @@
+
+
+<div class="wrap">
+    
+    <div class="tarjeta-wrap" *ngFor="let movie of movies">
+        <div class="tarjeta">
+                <span>{{movie.title}}</span>
+            <div class="delante">
+                    <a routerLink="/movie/{{movie.id}}" routerLinkActive="router-link-active" ></a>
+                    
+                    <br>
+                    <img src="https://image.tmdb.org/t/p/w300/{{movie.poster_path}}" alt="poster">
+            </div>
+            <div class="detras" >
+                    <img src="https://image.tmdb.org/t/p/w300/{{movie?.backdrop_path}}" alt="poster detras">
+                        <br>
+                    <p>{{movie?.overview}}</p>
+                    <a routerLink="/movie/{{movie.id}}" routerLinkActive="router-link-active" >Detalles</a>
+                    
+            </div>
+
+            
+
+        </div>
+        </div>
+</div>

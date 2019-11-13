@@ -1,0 +1,93 @@
+.busqueda1 {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, #1565C0, #b92b27);
+    color: white;
+    text-align: center;
+    padding: .5em 0;
+    height: 6vh;
+    width: 100vw;
+    margin-top: 3em;
+    position: fixed;
+    z-index: -1;
+    
+  }
+  
+  input {
+    font-size: 1em;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    border: 2px solid rgb(46, 43, 226);
+    border-radius: 3px;
+    background-color: transparent;
+    outline:none;
+  }
+  ::-webkit-input-placeholder{
+    color: #E91E63; 
+   
+  }
+  :focus::-webkit-input-placeholder {
+    opacity: 0; 
+    transition: opacity .3s ease;
+  }
+ 
+  .list {
+    margin-top: 2em;
+  }
+  @media only screen and (max-width: 1024px) {
+    .busqueda1 {
+      padding-top: 3em;
+      z-index: 1;
+      
+      
+    }
+  .list {
+    padding-top: 3em;
+  }
+   
+
+  }
+  @media only screen and (max-width: 800px) {
+    .busqueda1 {
+      margin-top: 1.8em;
+      padding-top: 2em;
+      z-index: 1;
+      height: 10vh;
+      font-size: 1em;
+      
+    }
+  .list {
+    margin-top: 0.8em;
+  }
+   
+  } 
+  @media only screen and (max-width: 600px) {
+    .busqueda1 {
+      margin-top: 1em;
+      padding-top: 2em;
+      z-index: 1;
+      height: 10vh;
+      
+    }
+  .list {
+    margin-top: 0.8em;
+  }
+   
+  } 
+  @media only screen and (max-width: 400px) {
+    
+    .busqueda1 {
+      margin-top: 1em;
+      padding-top: 2em;
+      z-index: 1;
+      height: 10vh;
+      
+      
+    }
+    
+   
+  
+    
+    
+  }

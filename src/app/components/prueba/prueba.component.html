@@ -1,0 +1,6 @@
+
+
+<div class="busqueda1">
+    <input type="text" name="search" placeholder="Buscar" (keyup)="searchMovies($event.target.value)">
+</div>
+<app-movie-list class="list" [movies]="movies"></app-movie-list>

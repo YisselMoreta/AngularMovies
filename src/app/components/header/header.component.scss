@@ -1,0 +1,137 @@
+
+
+#mainNav {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    background: linear-gradient(to right, #1565C0, #b92b27);
+    color: white !important;
+    font-family: "PT Sans Narrow", sans-serif;
+    @media only screen and (max-width: 1024px) {
+        font-size: 2em;
+        // margin-right: 0.8em;
+     
+    }
+    @media only screen and (max-width: 800px) {
+        font-size: 1.5em;
+        margin-right: 0em;
+     
+    } 
+    @media only screen and (max-width: 600px) {
+        font-size: 1.2em;
+        margin-right: 0em;
+     
+    } 
+    @media only screen and (max-width: 400px) {
+        font-size: 1.2em;
+
+        margin-right: 0em;
+    
+    }
+   
+ 
+
+    
+  }
+.navbar-toggler {
+    color: white;
+    cursor: pointer;
+    border: 1px solid rgb(46, 43, 226);
+    align-self: baseline;
+    outline:none;
+    @media only screen and (max-width: 1024px) {
+    
+      
+    }
+    @media only screen and (max-width: 800px) {
+          
+        margin-right: 1.7em;
+        font-size: 1em;
+     
+    } 
+    @media only screen and (max-width: 400px) {
+        margin-right: 2em;
+        font-size: 0.8em;
+        
+    
+    }
+    
+    
+
+    
+}
+.navbar-toggler:hover {
+    color: black;
+    transform: scale(1);
+}
+.navbar-brand {
+   align-self: baseline;
+    font-size: 1em;
+    @media only screen and (max-width: 1024px) {
+    
+        font-size: 1em;
+        
+    
+    }
+    @media only screen and (max-width: 800px) {
+        margin-left: 2em;
+        font-size: 1em;
+      
+    } 
+    @media only screen and (max-width: 400px) {
+        
+        margin-left: 2em;
+        font-size: 0.8em;
+    }
+   
+   
+
+    
+}
+a {
+    color: white;
+    
+}
+a:hover {
+    text-decoration: none;
+    color: black;
+    transform: scale(1);
+}
+#navbarResponsive {
+    transition: all .3s ease;
+}
+.nav-item:active {
+    transition: all .3s ease;
+}
+
+@media only screen and (max-width: 1024px) {
+   .nav-link{
+    font-size: 1em;
+   } 
+    
+    
+
+}
+@media only screen and (max-width: 800px) {
+    .nav-link{
+        font-size: 1em;
+       } 
+  
+} 
+@media only screen and (max-width: 600px) {
+    .nav-link{
+        font-size: 0.8em;
+       } 
+  
+} 
+@media only screen and (max-width: 400px) {
+    
+    .nav-link{
+        font-size: 0.7em;
+     
+    } 
+    
+}
+
+
